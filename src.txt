@@ -1,0 +1,23 @@
+src/
+ ├─ domain/
+ │    ├─ PermitType.java
+ │    ├─ VehicleType.java
+ │    ├─ PricingStrategy.java
+ │    ├─ ResidentPricingStrategy.java
+ │    ├─ CommuterPricingStrategy.java
+ │    ├─ RateModifier.java
+ │    ├─ CarpoolDiscount.java
+ │    ├─ PricingPipeline.java
+ │    ├─ PermitSelection.java
+ │    ├─ Validatable.java
+ │    ├─ InvalidSelectionException.java
+ │    ├─ PricingCalculator.java
+ │    └─ Receipt.java
+ ├─ Main.java
+ └─ test/
+      ├─ PricingStrategyTest.java
+      ├─ PipelineTest.java
+      ├─ CalculatorTest.java
+      ├─ ValidationTest.java
+      └─ ReceiptTest.java
+
